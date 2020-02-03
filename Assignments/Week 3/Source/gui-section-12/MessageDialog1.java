@@ -12,8 +12,7 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class MessageDialog1 {
     public static void main(String[] args) { new MessageDialog1().run(); }

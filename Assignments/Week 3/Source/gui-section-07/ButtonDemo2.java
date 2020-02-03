@@ -12,10 +12,8 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import java.awt.Dimension;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Demonstrates how to create and add JButtons to a frame. In this version we are setting the

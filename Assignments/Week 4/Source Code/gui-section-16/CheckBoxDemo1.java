@@ -12,15 +12,10 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import java.awt.GridLayout;
-import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
+import java.awt.event.ActionListener;
 
 /**
  * This application demonstrates how to create GUI check boxes using the javax.swing.JCheckBox class.

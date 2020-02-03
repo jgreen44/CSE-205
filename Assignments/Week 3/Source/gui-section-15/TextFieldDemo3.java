@@ -12,17 +12,10 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
+import java.awt.event.ActionListener;
 
 /**
  * This application demonstrates how to retrieve the text stored in a JTextField when a JButton

@@ -12,9 +12,7 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*;
 
 /**
  * Demonstrates how GUI components are laid out using the default layout manager which is

@@ -10,7 +10,6 @@
 //**************************************************************************************************
 package proj3;
 
-import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 /**

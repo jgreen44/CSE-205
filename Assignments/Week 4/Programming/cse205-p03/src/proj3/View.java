@@ -10,15 +10,8 @@
 //**************************************************************************************************
 package proj3;
 
-import java.awt.event.ActionEvent;
+import javax.swing.*;
 import java.awt.event.ActionListener;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 
 /**
  * The View class implements the GUI. It is a subclass of JFrame and implements the ActionListener

@@ -3,7 +3,7 @@
 //
 // Main simply instantiates a View object so the GUI will be displayed when the program runs.
 //**************************************************************************************************
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class Main {
 

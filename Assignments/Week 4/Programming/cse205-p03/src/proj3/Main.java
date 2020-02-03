@@ -10,9 +10,6 @@
 //**************************************************************************************************
 package proj3;
 
-import java.io.FileNotFoundException;
-import javax.swing.JFrame;
-
 /**
  * The Main class containing the main() and run() methods.
  */

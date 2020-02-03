@@ -19,8 +19,15 @@ public class View extends JFrame implements ActionListener {
     public View(Main pMain){
         setMain(pMain);
 
+        JPanel panelSearch = new JPanel();
+        JLabel mStudentName = new JLabel("Student Name: ");
+        panelSearch.add(mStudentName);
+        JButton mSearchButton = new JButton("Search");
 
-        setTitle("Gred : : Gradebook Editor");
+        panelSearch.add(mSearchButton);
+
+
+        setTitle("Grade Book Editor");
         setSize(FRAME_WIDTH, FRAME_HEIGHT);
         setResizable(false);
 
@@ -38,6 +45,8 @@ public class View extends JFrame implements ActionListener {
     }
 
     private void clearNumbers(){
+
+
 
     }
 

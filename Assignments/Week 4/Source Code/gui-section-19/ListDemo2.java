@@ -12,17 +12,9 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import java.awt.event.ActionListener;
+import javax.swing.*;
 import java.awt.event.ActionEvent;
-import javax.swing.Box;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JList;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
+import java.awt.event.ActionListener;
 
 /**
  * This application demonstrates how to create a vertical list using the javax.swing.JList and
