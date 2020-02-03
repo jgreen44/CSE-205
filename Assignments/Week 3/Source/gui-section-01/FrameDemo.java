@@ -12,8 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-
 /**
  * Demonstrates how to create a JFrame using the native look and feel (platform-dependent) or the
  * Swing default look and feel.

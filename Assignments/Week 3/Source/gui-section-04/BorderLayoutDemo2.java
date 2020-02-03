@@ -12,9 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-import java.awt.*;
-
 /**
  * Demonstrates how GUI components are laid out using the BorderLayout manager. In this case, we
  * only add components to the NORTH and SOUTH regions.

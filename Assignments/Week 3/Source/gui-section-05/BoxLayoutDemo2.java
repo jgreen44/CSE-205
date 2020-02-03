@@ -12,8 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-
 /**
  * Demonstrates how to create a layout using the BoxLayout layout manager. In this version we add
  * glue between each JLabel which will cause them to be spaced evenly in the horizontal layout

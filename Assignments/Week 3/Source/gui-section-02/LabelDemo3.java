@@ -12,8 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-
 /**
  * Demonstrates how to create a JPanel using no layout manager and then add two JLabels to the
  * JPanel using absolute positioning.

@@ -12,9 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-import java.awt.*;
-
 /**
  * This application demonstrates how to create an event listener for mouse clicks on JButtons.
  */

@@ -12,8 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-
 /**
  * Illustrates how to declare a JLabel and add it to a JFrame.
  */

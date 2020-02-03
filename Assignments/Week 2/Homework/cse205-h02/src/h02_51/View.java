@@ -4,7 +4,6 @@
 // DESCRIPTION
 // Implements the GUI for a calculator.
 //**************************************************************************************************
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

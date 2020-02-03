@@ -12,9 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-import java.awt.*;
-
 /**
  * Demonstrates how to create and add JButtons to a frame. In this version we are setting the
  * height and width of the buttons.

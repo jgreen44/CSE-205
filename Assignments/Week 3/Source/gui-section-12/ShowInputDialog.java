@@ -12,8 +12,6 @@
 // Arizona State University, Tempe, AZ 85287-8809
 // Web: http://www.devlang.com
 //**************************************************************************************************
-import javax.swing.*;
-
 public class ShowInputDialog {
     public static void main(String[] args) { new ShowInputDialog().run(); }
     public void run() {
