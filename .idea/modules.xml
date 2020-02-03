@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CSE 205.iml" filepath="$PROJECT_DIR$/.idea/CSE 205.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/jgreen44-h02/h02_45/h02_45.iml" filepath="$PROJECT_DIR$/Homework/jgreen44-h02/h02_45/h02_45.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/jgreen44-h02/h02_51/h02_51.iml" filepath="$PROJECT_DIR$/Homework/jgreen44-h02/h02_51/h02_51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/jgreen44-h01/jgreen44-h01.iml" filepath="$PROJECT_DIR$/Homework/jgreen44-h01/jgreen44-h01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/jgreen44-h02/jgreen44-h02.iml" filepath="$PROJECT_DIR$/Homework/jgreen44-h02/jgreen44-h02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework/jgreen44-h03/jgreen44-h03.iml" filepath="$PROJECT_DIR$/Homework/jgreen44-h03/jgreen44-h03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming/jgreen44-p01/jgreen44-p01.iml" filepath="$PROJECT_DIR$/Programming/jgreen44-p01/jgreen44-p01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming/jgreen44-p02/jgreen44-p02.iml" filepath="$PROJECT_DIR$/Programming/jgreen44-p02/jgreen44-p02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming/jgreen44-p03/jgreen44-p03.iml" filepath="$PROJECT_DIR$/Programming/jgreen44-p03/jgreen44-p03.iml" />
+    </modules>
+  </component>
+</project>
