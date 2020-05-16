@@ -59,18 +59,18 @@ public class View extends JFrame implements ActionListener {
         setMain(pMain);
 
         // PSEUDOCODE:
-        // Create a JPanel named panelSearch which uses the FlowLayout
-        // Add a JLabel "Student Name: " to panelSearch
-        // Create mStudentName and make the field 25 cols wide
-        // Add mStudentName to the panel
-        // Create mSearchButton with the label "Search"
-        // Make this View the action listener for the button
-        // Add the button to the panel
+        //DONE Create a JPanel named panelSearch which uses the FlowLayout
+        //DONE Add a JLabel "Student Name: " to panelSearch
+        //DONE Create mStudentName and make the field 25 cols wide
+        //DONE Add mStudentName to the panel
+        //DONE Create mSearchButton with the label "Search"
+        //DONE Make this View the action listener for the button
+        //DONE Add the button to the panel
         ???
 
         // PSEUDOCODE:
-        // Create a JPanel named panelHomework which uses the FlowLayout
-        // Add a JLabel "Homework: " to the panel
+        //DONE Create a JPanel named panelHomework which uses the FlowLayout
+        //DONE Add a JLabel "Homework: " to the panel
         // Create mHomeworkText which is an array of JTextFields, one for each homework assignment
         // For i = 0 to the number of homework assignments Do
         //     Create a textfield mHomeworkText[i] displaying 5 cols
@@ -78,13 +78,16 @@ public class View extends JFrame implements ActionListener {
         // End For
         // Note: DO NOT HARDCODE THE NUMBER OF HOMEWORK ASSIGNMENTS
         ???
-
+	
+		//DONE
         // Create the exam panel which contains the "Exam: " label and the two exam text fields.
         // The pseudocode is omitted because this code is very similar to the code that creates the
         // panelHomework panel above.
         // Note: DO NOT HARDCODE THE NUMBER OF EXAMS
+		//DONE
         ???
 
+		//DONE
         // PSEUDOCODE:
         // Create a JPanel named panelButtons using FlowLayout
         // Create the Clear button mClearButton labeled "Clear"
@@ -94,6 +97,7 @@ public class View extends JFrame implements ActionListener {
         // Repeat the three above statements for the Exit button
         ???
 
+		// DONE
         // PSEUDOCODE:
         // Create a JPanel named panelMain using a vertical BoxLayout
         // Add panelSearch to panelMain.
@@ -111,6 +115,7 @@ public class View extends JFrame implements ActionListener {
         // Make the View non-resizable
         setResizable(false);
         
+		// DONE
         // Set the default close operation to JFrame.DO_NOTHING_ON_CLOSE. This disables the X close
         // button in the title bar of the View so now the only way to exit the program is by click-
         // ing the Exit button. This ensures that Main.exit() will be called so it will write the
@@ -129,6 +134,7 @@ public class View extends JFrame implements ActionListener {
         setVisible(true);
     }
 
+	// DONE
     /**
      * actionPerformed()
      *
@@ -171,6 +177,7 @@ public class View extends JFrame implements ActionListener {
      */
     ???
 
+	// DONE
     /**
      * clear()
      *
@@ -189,6 +196,7 @@ public class View extends JFrame implements ActionListener {
      */
     ???
 
+	// DONE
     /**
      * clearNumbers()
      *
@@ -246,6 +254,7 @@ public class View extends JFrame implements ActionListener {
         JOptionPane.showMessageDialog(this, pMessage, "Message", JOptionPane.PLAIN_MESSAGE);
     }
 
+	// done
     /**
      * saveStudent()
      *

@@ -1,3 +1,11 @@
+//*********************************************************************************************
+// CLASS: classname (GradebookReader.java)
+//
+// CSE205 Object Oriented Programming and Data Structures, Spring 2020
+// Project Number: 3
+//
+// AUTHOR: Jason Green, jgreen44, jgreen44@asu.edu
+//*********************************************************************************************
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

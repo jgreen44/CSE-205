@@ -1,3 +1,11 @@
+//*********************************************************************************************
+// CLASS: classname (Student.java)
+//
+// CSE205 Object Oriented Programming and Data Structures, Spring 2020
+// Project Number: 3
+//
+// AUTHOR: Jason Green, jgreen44, jgreen44@asu.edu
+//*********************************************************************************************
 import java.util.ArrayList;
 
 public class Student implements Comparable<Student> {
@@ -9,20 +17,40 @@ public class Student implements Comparable<Student> {
 
 
     public Student(String pFirstName, String pLastName){
-        this.mFirstName = pFirstName;
-        this.mLastName = pLastName;
+        setFirstName(pFirstName);
+        setLastName(pLastName);
+
+        ArrayList<Integer> examList = new ArrayList<>();
+        setExamList(examList);
+
+        ArrayList<Integer> homeworkList = new ArrayList<>();
+        setHomeworkList(homeworkList);
     }
 
     public void addExam(int pScore){
-
+        getExamList().add(pScore);
     }
 
     public void addHomework(int pScore){
-
+        getHomeworkList().add(pScore);
     }
 
+    @Override
     public int compareTo(Student pStudent){
+        int returnVal = 0;
+        if(this.getLastName().length() < pStudent.getLastName().length()){
+           returnVal = -1;
+        }
 
+        if(this.getLastName().length() == pStudent.getLastName().length()){
+            returnVal = 0;
+        }
+
+        if(this.getLastName().length() > pStudent.getLastName().length()){
+            returnVal = 1;
+        }
+
+        return  returnVal;
     }
 
     public static Student getCurrStudent(){
@@ -30,7 +58,7 @@ public class Student implements Comparable<Student> {
     }
 
     public int getExam(int pNum){
-
+        return getExamList().get(pNum);
     }
 
     private ArrayList<Integer> getExamList(){
@@ -47,7 +75,7 @@ public class Student implements Comparable<Student> {
     }
 
     public int getHomework(int pNum){
-
+        return getHomeworkList().get(pNum);
     }
 
     private ArrayList<Integer> getHomeworkList(){
@@ -63,7 +91,7 @@ public class Student implements Comparable<Student> {
     }
 
     public void setExam(int pNum, int pScore){
-
+        getExamList().set(pNum, pScore);
     }
 
     private void setExamList(ArrayList<Integer> pExamList){
@@ -75,7 +103,7 @@ public class Student implements Comparable<Student> {
     }
 
     public void setHomework(int pNum, int pScore){
-
+        getHomeworkList().set(pNum, pScore);
     }
 
     private void setHomeworkList(ArrayList<Integer> pHomeworkList){

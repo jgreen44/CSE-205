@@ -48,6 +48,7 @@ public class Student implements Comparable<Student> {
      */
     ???
 
+	// DONE
     /**
      * Student()
      *
@@ -62,6 +63,7 @@ public class Student implements Comparable<Student> {
      */
     ???
 
+	// DONE
     /**
      * addExam()
      *
@@ -76,6 +78,7 @@ public class Student implements Comparable<Student> {
      */
     ???
 
+	// DONE
     /**
      * addHomework()
      *
